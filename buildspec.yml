@@ -13,4 +13,4 @@ phases:
     #commands:
 artifacts:
   files:
-    - target.txt 
+    - helloworld.html
