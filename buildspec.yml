@@ -1,18 +1,16 @@
 version: 0.2
-
-env:
-
+#env:
 phases:
   install:
     commands:
       - echo "Hello world" > target.txt 
-    finally:
-  pre_build:
-  build:
-    commands:
-    finally:
-  post_build:
-    commands:
+    #finally:
+  #pre_build:
+  #build:
+    #commands:
+    #finally:
+  #post_build:
+    #commands:
 artifacts:
   files:
     - target.txt 
